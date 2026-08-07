@@ -758,14 +758,7 @@ private fun PlaybackLyricsPage(
         lyrics = lyrics,
         fallbackLines = fallbackLyricsLines,
         currentPositionMs = currentPositionMs,
-        modifier = modifier
-            .pointerInput(Unit) {
-                detectTapGestures(
-                    onTap = {
-                        latestVisualPageToggle.invoke()
-                    }
-                )
-            }
+        modifier = modifier,
     )
 }
 
