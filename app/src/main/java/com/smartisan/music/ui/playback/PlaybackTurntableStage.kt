@@ -760,10 +760,12 @@ private fun PlaybackLyricsPage(
         currentPositionMs = currentPositionMs,
         modifier = modifier
             .pointerInput(Unit) {
-    detectTapGestures(
-        onTap = {
-    onVisualPageToggle.invoke()
-        }
+                detectTapGestures(
+                    onTap = {
+                        latestVisualPageToggle.invoke()
+                    }
+                )
+            }
     )
 }
 
