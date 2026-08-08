@@ -8,7 +8,7 @@
     </style>
 
     <style name="MmsDialogTheme" parent="@android:style/Theme.DeviceDefault.Dialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">#E6000000</item>
         <item name="android:windowFrame">@null</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowIsTranslucent">true</item>
